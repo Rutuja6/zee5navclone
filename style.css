@@ -1,0 +1,147 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f081f; /* Dark background */
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0f081f; /* Dark purple background */
+    border-bottom: 1px solid #282828;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav-links li a:hover {
+    color: #6e28fa; /* Purple hover */
+}
+
+.nav-links li i {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #1a132f;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.search-bar i {
+    color: #6e28fa; /* Purple for the search icon */
+    font-size: 18px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Right-side Icons */
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.language-btn {
+    background: none;
+    border: 1px solid #6e28fa;
+    color: #6e28fa;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.language-btn:hover {
+    background-color: #6e28fa;
+    color: white;
+}
+
+.login-btn {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: white;
+    color: #0f081f;
+}
+
+/* Buy Plan Button */
+.buy-plan-btn {
+    background-color: #6e28fa; /* Purple background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-plan-btn i {
+    font-size: 16px; /* Crown icon size */
+}
+
+.buy-plan-btn:hover {
+    background-color: #5b21d0; /* Darker purple on hover */
+}
+
+/* Hamburger Menu */
+.nav-icons .fa-bars {
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
